@@ -50,10 +50,6 @@ export default function LoginForm() {
     <Container>
       <div className="wrap">
         <Heading content="Hello! Please sign in." />
-        <p>
-          If you want to try my wordpress-site: <br />
-          <span className="fw-bold">Username:</span> Admin |<span className="fw-bold"> Password: </span> Password1
-        </p>
       </div>
 
       <Form onSubmit={handleSubmit(onSubmit)} className="mt-5">
